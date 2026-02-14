@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("./lesson.go")
+	file, err := os.Open("./main.go")
 	if err != nil {
 		log.Fatalln("Error!")
 	}
