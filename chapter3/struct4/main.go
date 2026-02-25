@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+type Vertex struct {
+	X int
+	Y int
+	S string
+}
+
+func main() {
+	v4 := Vertex{}
+	fmt.Printf("%T %v\n", v4, v4)
+
+	var v5 Vertex
+	fmt.Printf("%T %v\n", v5, v5)
+
+	v6 := new(Vertex)
+	fmt.Printf("%T %v\n", v6, v6)
+
+	v7 := &Vertex{}
+	fmt.Printf("%T %v\n", v7, v7)
+}
