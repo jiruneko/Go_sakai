@@ -15,7 +15,7 @@ func Area(v Vertex) int {
 }
 
 func main() {
-	v := Vertex{3, 4}
+	v := Vertex{2, 5}
 	fmt.Println(Area(v))
 	fmt.Println(v.Area())
 }
